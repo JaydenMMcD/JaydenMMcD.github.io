@@ -1,5 +1,4 @@
 # JaydenMMcD.github.io
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -7,7 +6,7 @@
   <title>Jayden McDonald — Home</title>
 </head>
 <body>
-  <h1>Hi, I'm Jayden McDonald</h1>
+  I'm Jayden McDonald
 
   <!-- short bio -->
   <p>
