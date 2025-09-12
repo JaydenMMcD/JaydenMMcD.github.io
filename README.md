@@ -1,9 +1,10 @@
 # JaydenMMcD.github.io
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  Jayden McDonald
+  <title>Jayden McDonald — Home</title>
 </head>
 <body>
   <h1>Hi, I'm Jayden McDonald</h1>
@@ -30,6 +31,10 @@
     <li>COMP 385 - Theory Of Computing</li>
   </ul>
   <!-- If you prefer numbers, use <ol> ... </ol> instead of <ul> -->
-    
-  <p><a href="introduction.html">Go to my introduction page</a></p
-</head>
+
+  <!-- link to the other page -->
+  <p><a href="introduction.html">Go to my introduction page</a></p>
+  <a href="little_prince.html">Go to The Little Prince</a>
+</body>
+</html>
+<head>
