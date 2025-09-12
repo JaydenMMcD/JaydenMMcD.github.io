@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jayden McDonald — Home</title>
-</head>
-<body>
+  </head>
+
+  <body>
   I'm Jayden McDonald
 
   <!-- short bio -->
