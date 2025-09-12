@@ -4,73 +4,96 @@
   <meta charset="UTF-8">
   <title>The Little Prince</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Roboto, "Roboto", Roboto;
+      background-color: lightgrey;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      margin: 50px auto;
+      max-width: 650px;
+      background: white;
+      padding: 25px 35px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    h1 {
+      text-align: center;
+      color: #5b3c88;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 250px;
+      border-radius: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      text-align: justify;
+      margin: 16px 0;
+    }
+
+    /* Highlight styles */
+    .hl-yellow {
+      background: #ffeb3b;
+      padding: 0 2px;
+    }
+
+    .emph-red {
+      color: #c8102e;
+      font-weight: bold;
+    }
+
+    .strong-underline {
+      border-bottom: 3px solid black;
+      padding-bottom: 1px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: white;
+      background-color: #5b3c88;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .back-link:hover {
+      background-color: #43276d;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <h1>The Little Prince</h1>
-    <img src="img/img4.png" alt="The Little Prince" alt= "The Little Prince" width="250" />
-    <p>
-      <p>
-  "Standing with quiet confidence,<br>
-  you remind me of the Little Prince’s belief<br>
-  that true style isn’t about appearances,<br>
-  but about the story behind them.<br>
-  Every detail — the bold stripes,<br>
-  the silver chain, the thoughtful pose —<br>
-  feels like a reflection of individuality<br>
-  that can’t be seen with just the eyes.<br>
-  As the Prince said,<br>
-  “what is essential is invisible,”<br>
-  and here, the essential is your presence:<br>
-  a mix of strength, curiosity, and authenticity<br>
-  that shines through beyond the outfit itself." 
-</p>
+    <img src="img/img4.jpeg" alt="The Little Prince" width="250">
 
+    <p>As the little prince drifted into sleep, I gently carried him in my arms and walked on. 
+       I <span class="strong-underline">felt a deep emotion stirring within me</span>, as though I were holding something delicate and precious. 
+       <span class="hl-yellow">It seemed to me that nothing on Earth could be more fragile.</span>
     </p>
+
+    <p>Bathed in moonlight, I gazed at his face—his closed eyes, his soft hair quivering in the breeze—and thought to myself: 
+       <span class="emph-red">“What I see is only a shell. What truly matters lies within, unseen.”</span>
+    </p>
+
+    <p>When his lips curved into the faintest smile, I reflected again: 
+       <span class="emph-red">“What touches me so profoundly is this child’s devotion to his flower—the vision of a rose illuminating his life, glowing like the flame of a lamp, even in his sleep.”</span>
+    </p>
+
+    <p>And in that moment, I felt an even greater tenderness, as though he were a flame himself, 
+       one that could be extinguished by the gentlest breath of wind.</p>
+
     <a href="index.html" class="back-link">Back to Home</a>
   </div>
 </body>
 </html>
-<style>
-body {
-  font-family: Roboto, Roboto;
-  background-color: lightgrey;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  margin: 50px auto;
-  max-width: 600px;
-}
-
-h1 {
-  color: #5b3c88;
-}
-
-img {
-  max-width: 300px;
-  border-radius: 10px;
-  margin: 20px 0;
-}
-
-p {
-  font-size: 1.2em;
-  font-style: italic;
-  margin: 20px 0;
-}
-
-.back-link {
-  display: inline-block;
-  margin-top: 20px;
-  text-decoration: none;
-  color: white;
-  background-color: #5b3c88;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-
-.back-link:hover {
-  background-color: #43276d;
-}
